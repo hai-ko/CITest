@@ -20,9 +20,7 @@
   "scripts": {
     "test": "truffle test"
   },
-//  "dependencies": {
-//    "truffle": "^3.2.1"
-//  },
+
   
   "group": "stable",
   "os": "linux"
