@@ -15,6 +15,9 @@
     "npm install",
     "npm run testrpc"
   ],
+  "scripts": {
+    "test": "vows --spec"
+  },
   "group": "stable",
   "os": "linux"
 }
