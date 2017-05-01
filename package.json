@@ -9,11 +9,12 @@
     "sudo add-apt-repository -y ppa:ethereum/ethereum",
     "sudo add-apt-repository -y ppa:ethereum/ethereum-dev",
     "sudo apt-get update -qq",
-    "sudo apt-get install geth -y -qq"
+    "sudo apt-get install geth -y -qq",
+    "sudo npm install -g truffle"
   ],
   "install": [
     "npm install",
-    "sudo npm install -g truffle",
+    
     "npm run testrpc"
   ],"scripts": {
     "test": "truffle test"
