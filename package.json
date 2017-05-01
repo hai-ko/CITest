@@ -13,9 +13,11 @@
   ],
   "install": [
     "npm install",
-    "npm install -g truffle",
+    "sudo npm install -g truffle",
     "npm run testrpc"
-  ],
+  ],"scripts": {
+    "test": "truffle test"
+  },
   
   "group": "stable",
   "os": "linux"
