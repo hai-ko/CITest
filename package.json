@@ -14,10 +14,13 @@
   ],
   "install": [
     "npm install",
-    
     "npm run testrpc"
-  ],"scripts": {
+  ],
+  "scripts": {
     "test": "truffle test"
+  },
+  "dependencies": {
+    "truffle": "^3.2.1"
   },
   
   "group": "stable",
