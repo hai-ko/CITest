@@ -16,7 +16,7 @@
     "npm run testrpc"
   ],
   "scripts": {
-    "test": "vows --spec"
+    "test": "truffle test"
   },
   "group": "stable",
   "os": "linux"
