@@ -8,7 +8,6 @@
   },
   "scripts": {
     "test": "truffle test",
-   
     "start": "pm2 start truffle -- serve"
   },
   "devDependencies": {
