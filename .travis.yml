@@ -9,6 +9,8 @@ node_js:
 
 before_install:
   - sudo apt-get update -qq
+  - sudo apt-get install software-properties-common -y -qq
+  - sudo apt-get update -qq
   - sudo apt-get install geth -y -qq
   - docker pull ethcore/parity:beta
   - docker run -v /home/travis/build/hai-ko/CITest/testchaindata:/testchaindata -ti ethcore/parity:beta account import /testchaindata/keys/ --chain dev --base-path /testchaindata/temp/
