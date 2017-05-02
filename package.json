@@ -8,11 +8,11 @@
   },
   "scripts": {
     "test": "truffle test",
-    "testrpc": "pm2 start testrpc",
+   
     "start": "pm2 start truffle -- serve"
   },
   "devDependencies": {
-    "ethereumjs-testrpc": "^3.0.5",
+   
     "pm2": "^2.4.6",
     "solc": "^0.4.10",
     "solc-cli": "^0.3.0",
