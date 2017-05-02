@@ -14,7 +14,9 @@ before_install:
   - sudo add-apt-repository -y ppa:ethereum/ethereum-dev
   - sudo apt-get update -qq
   - sudo apt-get install geth -y -qq
-  - bash <(curl https://get.parity.io -Lk)
+  - sudo apt-get install -y -qq build-essential git unzip wget ntp cloud-utils
+  - sudo curl -sSf https://static.rust-lang.org/rustup.sh | sh -s -- -y
+  - cargo install --git https://github.com/paritytech/parity.git parity
 
 install:
   - npm install
