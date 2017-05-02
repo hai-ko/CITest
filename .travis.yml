@@ -20,7 +20,7 @@ before_install:
 
 install:
   - npm install
-  - npm run testrpc
+  
 
 services:
   - postgresql
